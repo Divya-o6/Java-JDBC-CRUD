@@ -5,7 +5,7 @@ public class StudentCRUD {
 
     static final String URL = "jdbc:mysql://localhost:3306/studentdb";
     static final String USER = "root";
-    static final String PASSWORD = "root";
+    static final String PASSWORD = "root1";
 
     public static void main(String[] args) {
 
