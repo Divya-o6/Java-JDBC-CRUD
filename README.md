@@ -1,18 +1,26 @@
-## Getting Started
+# Java JDBC CRUD Application
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A standalone Java application that performs CRUD operations 
+using JDBC and MySQL.
 
-## Folder Structure
+## 🚀 Features
+- Insert Student Record
+- View Students
+- Update Student Record
+- Delete Student Record
 
-The workspace contains two folders by default, where:
+## 🛠 Tech Stack
+- Java (JDK 25)
+- MySQL
+- JDBC
+- VS Code
+- Git & GitHub
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🗄 Database Details
+- Database: studentdb
+- Table: students
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## ▶ How to Run
+1. Start MySQL Server
+2. Update DB password in code
+3. Run StudentCRUD.java
